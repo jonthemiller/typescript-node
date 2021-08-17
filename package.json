@@ -1,0 +1,25 @@
+{
+  "name": "node-udp",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "rm -rf build",
+    "start": "node --experimental-modules --es-module-specifier-resolution=node build/index.js",
+    "build": "tsc",
+    "lint": "eslint"
+  },
+  "main": "build/index.js",
+  "files": [
+    "build"
+  ],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^16.6.1",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint": "^7.32.0",
+    "typescript": "^4.3.5"
+  }
+}

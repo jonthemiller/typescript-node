@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "esnext",
+    "lib": [
+      "es2019"
+    ],
+    "strict": true,
+    "importHelpers": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "baseUrl": "src",
+    "resolveJsonModule": true,
+    "types": [
+      "@types/node"
+    ],
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "build"
+  },
+  "exclude": [
+    "node_modules/**/*",
+    "build/**/*"
+  ],
+  "include": [
+    "src"
+  ]
+}
